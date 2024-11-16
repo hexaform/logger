@@ -1,0 +1,21 @@
+{
+    "name": "@hexaform/logger",
+    "version": "1.1.0",
+    "description": "Logger module for Hexaform",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/hexaform/logger.git"
+    },
+    "author": "Igor Stojadinović <mightytroll@gmail.com> (https://www.linkedin.com/in/igorstojadinovic/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hexaform/logger/issues"
+    },
+    "homepage": "https://github.com/hexaform/logger#readme",
+    "peerDependencies": {
+        "@hexaform/configuration": "^1.1.0",
+        "lodash": "^4.17.21",
+        "winston": "^3.8.2"
+    }
+}

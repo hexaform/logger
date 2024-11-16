@@ -1,0 +1,30 @@
+{
+    "name": "@hexaform/logger",
+    "version": "1.0.0",
+    "description": "Logger module for Hexaform",
+    "main": "src/index.ts",
+    "scripts": {
+        "reflect": "reflect.parse > cache/.reflection-data.json && reflect.paramtypes cache/.reflection-data.json src/paramtypes.ts",
+        "build": "rm -rf dist/* && tsc && cp src/package.dist.json dist/package.json && cp README.md dist/README.md",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/hexaform/logger.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hexaform/logger/issues"
+    },
+    "homepage": "https://github.com/hexaform/logger#readme",
+    "devDependencies": {
+        "@types/node": "^22.7.5",
+        "typescript": "^5.6.3"
+    },
+    "peerDependencies": {
+        "@hexaform/configuration": "^1.0.0",
+        "lodash": "^4.17.21",
+        "winston": "^3.8.2"
+    }
+}
